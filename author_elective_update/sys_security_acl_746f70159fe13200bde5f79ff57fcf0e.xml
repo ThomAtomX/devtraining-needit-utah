@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow read for records in x_58872_needit_needit, for users with roles (x_58872_needit.admin, x_58872_needit.needit_user), and if the ACL script returns true.</description>
+        <local_or_existing/>
+        <name>x_58872_needit_needit</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[current.isNewRecord();]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-15 21:51:24</sys_created_on>
+        <sys_id>746f70159fe13200bde5f79ff57fcf0e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_58872_needit_needit</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_security_acl_746f70159fe13200bde5f79ff57fcf0e</sys_update_name>
+        <sys_updated_by>ThomAtomX</sys_updated_by>
+        <sys_updated_on>2024-08-27 13:23:03</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>bdc1bb12db5ab59002022a591396194e</instance_id>
+        <instance_name>dev206395</instance_name>
+        <name>sys_security_acl_746f70159fe13200bde5f79ff57fcf0e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description&gt;Allow read for records in x_58872_needit_needit, for users with roles (x_58872_needit.admin, x_58872_needit.needit_user), and if the ACL script returns true.&lt;/description&gt;&lt;local_or_existing/&gt;&lt;name&gt;x_58872_needit_needit&lt;/name&gt;&lt;operation display_value="read"&gt;read&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[current.isNewRecord();]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-03-15 21:51:24&lt;/sys_created_on&gt;&lt;sys_id&gt;746f70159fe13200bde5f79ff57fcf0e&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_58872_needit_needit&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_746f70159fe13200bde5f79ff57fcf0e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ThomAtomX&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-27 13:23:03&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-897887411</payload_hash>
+        <record_name>x_58872_needit_needit</record_name>
+        <reverted_from/>
+        <source>d91c67ab830c16501f87c730ceaad3fa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ThomAtomX</sys_created_by>
+        <sys_created_on>2024-08-27 13:23:04</sys_created_on>
+        <sys_id>765885d583509ad01f87c730ceaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191940114550000001</sys_recorded_at>
+        <sys_updated_by>ThomAtomX</sys_updated_by>
+        <sys_updated_on>2024-08-27 13:23:04</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>fa5885d50e509ad0219d6da0e6a149b2</update_guid>
+        <update_guid_history>fa5885d50e509ad0219d6da0e6a149b2:-897887411,7118415594509ad046c442b9396c210b:379823588,a7a70551de509ad0a37ae8de8e5ee4db:-897887411,ed17c11d7e109ad0def4e80e403af714:379823588,814e6004a4501e5086214c5c7c6678b9:0,22faeba3cf0c1650a87eca764e0f0ac2:-733097626,02de7bf2514096101177bd3ef0e447ac:-2017809842</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ThomAtomX</sys_created_by>
+        <sys_created_on>2024-08-27 13:25:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>4a0b0a6fcaa2469d80c067aae0c7d271</sys_id>
+        <sys_metadata>746f70159fe13200bde5f79ff57fcf0e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needit</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">04de77f2834096101f87c730ceaad30e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_746f70159fe13200bde5f79ff57fcf0e</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_746f70159fe13200bde5f79ff57fcf0e">765885d583509ad01f87c730ceaad3b3</sys_update_version>
+        <sys_updated_by>ThomAtomX</sys_updated_by>
+        <sys_updated_on>2024-08-27 13:25:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
